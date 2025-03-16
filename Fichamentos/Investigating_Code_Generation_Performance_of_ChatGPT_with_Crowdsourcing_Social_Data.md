@@ -4,15 +4,16 @@ Y. Feng, S. Vanam, M. Cherukupally, W. Zheng, M. Qiu and H. Chen, "Investigating
 
 ## 1. Fichamento de Conteúdo
 
-O artigo investiga o desempenho do ChatGPT na geração de código a partir de dados coletados de mídias sociais, como Twitter e Reddit. Para isso, os autores propuseram um framework de crowdsourcing baseado em análise de tópicos e modelos de aprendizado de máquina para identificar padrões na geração de código pelo ChatGPT. Foram coletados 316 mil tweets e 3,2 mil postagens do Reddit entre dezembro de 2022 e janeiro de 2023, revelando que Python e JavaScript são as linguagens mais mencionadas. O estudo identificou que ChatGPT é usado para várias tarefas, incluindo depuração, entrevistas técnicas e auxílio acadêmico, mas também gerou preocupações entre os usuários, com "medo" sendo a emoção predominante associada à sua utilização. Além disso, os pesquisadores criaram um conjunto de dados público com prompts e códigos gerados pelo ChatGPT, além de realizar análises de qualidade de código usando a ferramenta Flake8. O artigo conclui que, apesar das capacidades impressionantes do ChatGPT, existem desafios em sua adoção, incluindo questões éticas e limitações na geração de código de qualidade.
+O artigo explora o desempenho do ChatGPT na criação de código, utilizando dados extraídos de plataformas de mídia social como Twitter e Reddit. Para isso, os autores desenvolveram um _framework_ de _crowdsourcing_ que combina análise de tópicos e modelos de aprendizado de máquina, com o intuito de descobrir padrões na forma como o ChatGPT gera o código. Entre dezembro de 2022 e janeiro de 2023, foram coletados 316 mil tweets e 3,2 mil postagens no Reddit, revelando que as linguagens mais frequentemente mencionadas são Python e JavaScript. A pesquisa revelou que o ChatGPT é utilizado para diversas finalidades, incluindo depuração, entrevistas técnicas e suporte acadêmico. No entanto, também surgiram preocupações entre os usuários, com um destaque para a emoção de "medo" associada ao seu uso. Além disso, os pesquisadores disponibilizaram um conjunto de dados público contendo prompts e códigos gerados pelo ChatGPT e realizaram análises da qualidade do código utilizando a ferramenta Flake8. O estudo conclui que, apesar das notáveis habilidades do ChatGPT, existem desafios a serem enfrentados na sua adoção, incluindo questões éticas e limitações na produção de código de qualidade. 
 
 ## 2. Fichamento Bibliográfico
 
-- _Crowdsourcing de Dados Sociais_: Os autores utilizaram dados de plataformas como Twitter e Reddit para analisar a recepção do ChatGPT na geração de código.
-- _Principais Linguagens de Programação_: Python e JavaScript foram as linguagens mais utilizadas nos exemplos analisados do ChatGPT.
-- _Tarefas mais comuns_: O ChatGPT foi usado para depuração de código, testes, entrevistas técnicas e auxílio em trabalhos acadêmicos.
-- _Sentimento dos Usuários_: "Medo" foi a emoção mais expressada em postagens sobre o ChatGPT na geração de código, indicando preocupações com sua adoção.
-- _Qualidade do Código_: O estudo usou Flake8 para avaliar a qualidade dos códigos gerados, identificando problemas comuns, como linhas longas e problemas de estilo.
+- _Crowdsourcing data-driven framework_ representa como coletar dados de
+interesse, como analisar dados e como interpretar descobertas usando 3 fases: Expansão e seleção de palavras-chave, coleta de dados e análise de dados e reconhecimento de padrões (página 3).
+- _Keyword Selection_ abordagem que visa que os dados sejam abrangentes e precisos, eliminando o risco
+de viés ou incompletude na seleção de palavras-chave de consulta (página 3).
+- _latent Dirichlet allocation (LDA)_ é uma técnica de modelagem de tópicos para descobrir os tópicos centrais e suas distribuições em um conjunto de itens (página 4).
+- Flake8 é um utilitário de linha de comando que verifica o código Python em relação ao estilo de codificação (PEP 8), erros de programação e construções complexas (página 7).
 
 ## 3. Fichamento de Citações
 
@@ -20,4 +21,4 @@ O artigo investiga o desempenho do ChatGPT na geração de código a partir de d
 - "_Fear is the dominant emotion associated with ChatGPT’s code generation, overshadowing emotions of happiness, anger, surprise, and sadness._"
 - "_We have built a real-world programming dataset containing the ChatGPT prompt and the associated generated Python code._"
 - "_Flake8 identifies the error codes for each file, along with the position and description of the error._"
-- "_There have been instances where ChatGPT was instructed to compose a Python function for predicting someone’s seniority or assessing their competence as a scientist based on race and gender, leading to concerns about bias._"
+- "_However, there have been instances where ChatGPT was instructed to compose a Python function for predicting someone’s seniority or assessing their competence as a scientist._"

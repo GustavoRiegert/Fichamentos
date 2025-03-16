@@ -11,8 +11,8 @@ Este artigo tem por finalidade identificar como os programadores estão recorren
 
 -  _Code refactoring_ (refatoração de código) é a modificaçaõ no codigo que visa melhorar a sua estrutura interna sem alterar seu comportamento externo (página 3).
 - _Hacker News Forum_: Fórum que abrange discussões sobre repositórios públicos (página 2).
-- _Regex pattern_ (padrão de regex) é uma expressão regular projetada para identificar e corresponder as palavras-chave relacionadas à refatoração de código dentro dos prompts analisados (página 2).
-- _Data annotation_ (Padrão de regex) é o processo que rotulariza e categoriza informações dentro do conjunto de dados analisados (página 2).
+- _Regex pattern_ (padrão de regex) é uma expressão regular projetada para identificar e corresponder as palavras-chave relacionadas à refatoração de código dentro dos prompts (página 2).
+- _Data annotation_ é o processo que rotulariza e categoriza informações dentro do conjunto de dados analisados (página 2).
 
 ## 3. Fichamento de Citações
 

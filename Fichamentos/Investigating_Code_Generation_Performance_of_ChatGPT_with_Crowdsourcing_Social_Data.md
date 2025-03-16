@@ -10,8 +10,7 @@ O artigo explora o desempenho do ChatGPT na criação de código, utilizando dad
 
 - _Crowdsourcing data-driven framework_ representa como coletar dados de
 interesse, como analisar dados e como interpretar descobertas usando 3 fases: Expansão e seleção de palavras-chave, coleta de dados e análise de dados e reconhecimento de padrões (página 3).
-- _Keyword Selection_ abordagem que visa que os dados sejam abrangentes e precisos, eliminando o risco
-de viés ou incompletude na seleção de palavras-chave de consulta (página 3).
+- _Keyword Selection_ abordagem que visa que os dados sejam abrangentes e precisos, eliminando o risco de viés ou incompletude na seleção de palavras-chave de consulta (página 3).
 - _latent Dirichlet allocation (LDA)_ é uma técnica de modelagem de tópicos para descobrir os tópicos centrais e suas distribuições em um conjunto de itens (página 4).
 - Flake8 é um utilitário de linha de comando que verifica o código Python em relação ao estilo de codificação (PEP 8), erros de programação e construções complexas (página 7).
 

@@ -5,17 +5,17 @@ C. Niu, T. Zhang, C. Li, B. Luo and V. Ng, "On Evaluating the Efficiency of Sour
 
 ## 1. Fichamento de Conteúdo
 
-O artigo investiga a eficiência do código gerado por modelos de linguagem de grande escala (LLMs), indo além da mera avaliação da correção funcional. Os autores conduzem experimentos utilizando os benchmarks HumanEval e MBPP, além de problemas do LeetCode para avaliar a execução e desempenho dos códigos gerados. Eles exploram a eficácia de diferentes prompts para melhorar a eficiência do código gerado, comparando modelos como GPT-4, GPT-3.5, Code Llama, WizardCoder e DeepSeek Coder. Os resultados indicam que a eficiência não está necessariamente correlacionada à taxa de acerto do modelo e que estratégias de prompt, como decomposição passo a passo, podem melhorar significativamente o desempenho do código gerado. O estudo destaca que modelos menores podem gerar código mais eficiente que modelos maiores em certas situações e que a escolha do modelo deve considerar o equilíbrio entre correção e eficiência. 
+O artigo investiga a eficiência do código gerado por modelos de linguagem de grande escala (LLMs), indo além da mera avaliação da correção funcional. Os autores conduzem experimentos utilizando os _benchmarks_ HumanEval e MBPP, além de problemas do LeetCode para avaliar a execução e desempenho dos códigos gerados. Eles exploram a eficácia de diferentes prompts para melhorar a eficiência do código gerado, comparando modelos como GPT-4, GPT-3.5, Code Llama, WizardCoder e DeepSeek Coder. Os resultados indicam que a eficiência não está necessariamente correlacionada à taxa de acerto do modelo e que estratégias de prompt, como decomposição passo a passo, podem melhorar significativamente o desempenho do código gerado. O estudo destaca que modelos menores podem gerar código mais eficiente que modelos maiores em certas situações e que a escolha do modelo deve considerar o equilíbrio entre correção e eficiência. 
 
 ## 2. Fichamento Bibliográfico
 
-- _HumanEval_ é usado para medir a correção funcional para sintetizar programas a partir de docstrings.
-- _Mostly Basic Python Programming_ (MBPP) consiste em um conjunto de problemas de programação Python de crowdsourcing, projetados para serem solucionáveis ​​por programadores iniciantes, abrangendo fundamentos de programação, funcionalidade de biblioteca padrão, etc.
-- _LeetCode_ é uma plataforma de habilidades técnicas e preparação para entrevistas, que é usada para aprender, praticar e avaliar habilidades de codificação e programação.
+- _HumanEval_ é usado para medir a correção funcional para sintetizar programas a partir de docstrings (página 2).
+- _Mostly Basic Python Programming_ (MBPP) consiste em um conjunto de problemas de programação Python de crowdsourcing, projetados para serem solucionáveis ​​por programadores iniciantes, abrangendo fundamentos de programação, funcionalidade de biblioteca padrão, etc (página 2).
+- _LeetCode_ é uma plataforma de habilidades técnicas e preparação para entrevistas, que é usada para aprender, praticar e avaliar habilidades de codificação e programação (página 2).
 
 ## 3. Fichamento de Citações
 
 - "_First, the ability to generate correct code is not positively correlated with the ability to generate efficient code._"
-- "_[...] step-by-step prompting could make LLM to generate more efficient code, especially on complex problems.._"
+- "_[...] step-by-step prompting could make LLM to generate more efficient code, especially on complex problems._"
 - "_This suggests that models of varying sizes share similar performance due to their reliance on the same training data._"
 - "_Comprehensive test cases on LeetCode can make the runtime benefits of code with real less complexity more significant, and thus more accurately reflect the efficiency._"

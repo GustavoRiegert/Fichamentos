@@ -4,14 +4,14 @@ L. Wu, Y. Zhao, X. Hou, T. Liu and H. Wang, "ChatGPT Chats Decoded: Uncovering P
 
 ## 1. Fichamento de Conteúdo
 
-O artigo mapeia os padrões de prompts de uso comum que efetivamente melhoram a eficiência do ChatGPT no ciclo de vida do desenvolvimento de um software. A abordagem baseia-se em um conjunto de dados do DevGPT de interações entre os desenvolvedores e o ChatGPT para descobrir a natureza exata dos prompts que desencadeiam respostas mais eficazes. Com base na análise, foi identificado seis categorias padrões de prompts: _Input Semantics_, _Output Customization_, _Error Identification_, _Prompt Improvement_, _Interaction_ e _Context Control_. O estudo destaca que o padrão _Output Customization_ é o mais frequentemente empregado, representando 33,8% dos casos. Além disso, foi mapeado padrões recorrentes nos estágios diferentes do ciclo de vida do desenvolvimento de software (_Software Development Lifecycle_), como engenharia de requisitos, desenvolvimento e manutenção. A análise fornece que o que os desenvolvedores podem fazer para otimizar suas interações ainda possui desafios, principalmente na automação da interação e na confiabilidade da resposta.
+O artigo mapeia os padrões de prompts de uso comum que efetivamente melhoram a eficiência do ChatGPT no ciclo de vida do desenvolvimento de um software (_Software Development Lifecycle_). A abordagem baseia-se em um conjunto de dados do DevGPT de interações entre os desenvolvedores e o ChatGPT para descobrir a natureza exata dos prompts que desencadeiam respostas mais eficazes. Com base na análise, foi identificado seis categorias padrões de prompts: _Input Semantics_, _Output Customization_, _Error Identification_, _Prompt Improvement_, _Interaction_ e _Context Control_. O estudo destaca que o padrão _Output Customization_ é o mais frequentemente empregado, representando 33,8% dos casos. Além disso, foi mapeado padrões recorrentes nos estágios diferentes do ciclo de vida do desenvolvimento de software, como engenharia de requisitos, desenvolvimento e manutenção. A análise fornece que ainda existem desafios para os desenvolvedores otimizarem suas interações, principalmente na automação da interação e na confiabilidade da resposta.
 
 ## 2. Fichamento Bibliográfico
 - _Large Language Models (LLMs)_ são tipos de modelo de inteligência artificial que utilizam técnicas de _machine learning_ (aprendizado de máquina) para entender e gerar linguagem humana (página 1).
-- _Prompt Patterns_ (padrões de prompts) são padrões de estruturas que orientam o fluxo de diálogo dividos em 6 categorias (página 1).
-- _DevGPT dataset_ uma coleção de dados contendo interações entre desenvolvedores e o ChatGPT, utilizado para análise dos padrões de interação(página 1).
+- _Prompt Patterns_ (padrões de prompts) são padrões de estruturas que orientam o fluxo de diálogo divididos em 6 categorias (página 1).
+- _DevGPT dataset_ uma coleção de dados contendo interações entre desenvolvedores e o ChatGPT, utilizado para análise dos padrões de interação (página 1).
 - _Output Customization_ esse padrão especifica tipos, formatos e estruturas, no qual adota um personagem ou função específica fornecendo um guia passo a passo de ações
-- _Software Development Lifecycle_ junção de 6 atividades: engenharia de requisitos, design de software,
+- Ciclo de vida do desenvolvimento de software (_Software Development Lifecycle_) junção de 6 atividades: engenharia de requisitos, design de software,
 desenvolvimento de software, garantia de qualidade de software, manutenção de software e gerenciamento de software.
 
 ## 3. Fichamento de Citações

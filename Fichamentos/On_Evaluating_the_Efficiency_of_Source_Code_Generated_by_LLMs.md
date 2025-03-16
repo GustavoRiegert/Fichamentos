@@ -5,21 +5,17 @@ C. Niu, T. Zhang, C. Li, B. Luo and V. Ng, "On Evaluating the Efficiency of Sour
 
 ## 1. Fichamento de Conteúdo
 
-O artigo investiga a eficiência do código gerado por modelos de linguagem de grande escala (LLMs), indo além da mera avaliação da correção funcional. Os autores conduzem experimentos utilizando os benchmarks HumanEval e MBPP, além de problemas do LeetCode para avaliar a execução e desempenho dos códigos gerados. Eles exploram a eficácia de diferentes prompts para melhorar a eficiência do código gerado, comparando modelos como GPT-4, GPT-3.5, Code Llama, WizardCoder e DeepSeek Coder. Os resultados indicam que a eficiência não está necessariamente correlacionada à taxa de acerto do modelo e que estratégias de prompt, como decomposição passo a passo, podem melhorar significativamente o desempenho do código gerado. O estudo destaca que modelos menores podem gerar código mais eficiente que modelos maiores em certas situações e que a escolha do modelo deve considerar o equilíbrio entre correção e eficiência.
+O artigo investiga a eficiência do código gerado por modelos de linguagem de grande escala (LLMs), indo além da mera avaliação da correção funcional. Os autores conduzem experimentos utilizando os benchmarks HumanEval e MBPP, além de problemas do LeetCode para avaliar a execução e desempenho dos códigos gerados. Eles exploram a eficácia de diferentes prompts para melhorar a eficiência do código gerado, comparando modelos como GPT-4, GPT-3.5, Code Llama, WizardCoder e DeepSeek Coder. Os resultados indicam que a eficiência não está necessariamente correlacionada à taxa de acerto do modelo e que estratégias de prompt, como decomposição passo a passo, podem melhorar significativamente o desempenho do código gerado. O estudo destaca que modelos menores podem gerar código mais eficiente que modelos maiores em certas situações e que a escolha do modelo deve considerar o equilíbrio entre correção e eficiência. 
 
 ## 2. Fichamento Bibliográfico
 
-- _Eficiência do Código Gerado por LLMs_: Mede o tempo de execução dos códigos gerados por modelos de IA, além da correção funcional.
-- _Benchmarks Utilizados_: HumanEval e MBPP para testes de programação de nível básico, além do LeetCodeEval para problemas mais complexos.
-- _Pass@10_: Métrica que avalia a taxa de sucesso de um modelo ao gerar pelo menos uma solução correta entre as 10 primeiras tentativas.
-- _Estratégias de Prompt_: Métodos para incentivar modelos a gerar código mais eficiente, incluindo otimização direta, otimização iterativa e análise de estratégia antes da geração do código final.
-- _Modelos Avaliados_: GPT-4, GPT-3.5, Code Llama, WizardCoder e DeepSeek Coder foram testados quanto à eficiência e correção do código gerado.
+- _HumanEval_ é usado para medir a correção funcional para sintetizar programas a partir de docstrings.
+- _Mostly Basic Python Programming_ (MBPP) consiste em um conjunto de problemas de programação Python de crowdsourcing, projetados para serem solucionáveis ​​por programadores iniciantes, abrangendo fundamentos de programação, funcionalidade de biblioteca padrão, etc.
+- _LeetCode_ é uma plataforma de habilidades técnicas e preparação para entrevistas, que é usada para aprender, praticar e avaliar habilidades de codificação e programação.
 
 ## 3. Fichamento de Citações
 
-- "_The ability to generate correct code is not positively correlated with the ability to generate efficient code._"
-- "_Step-by-step prompting could make LLMs generate more efficient code, especially on complex problems._"
-- "_We propose a LeetCode-based benchmark which provides a reference point for comparing the correctness and efficiency of more complex code._"
-- "_Our results suggest that models of varying sizes share similar performance due to their reliance on the same training data._"
-- "_More comprehensive test cases can make the runtime benefits of code with lower complexity more significant, and thus more accurately reflect efficiency._"
-- "_Prompting strategies such as chain-of-thought improve efficiency for complex problems, as they allow the model to iteratively refine its output._"
+- "_First, the ability to generate correct code is not positively correlated with the ability to generate efficient code._"
+- "_[...] step-by-step prompting could make LLM to generate more efficient code, especially on complex problems.._"
+- "_This suggests that models of varying sizes share similar performance due to their reliance on the same training data._"
+- "_Comprehensive test cases on LeetCode can make the runtime benefits of code with real less complexity more significant, and thus more accurately reflect the efficiency._"

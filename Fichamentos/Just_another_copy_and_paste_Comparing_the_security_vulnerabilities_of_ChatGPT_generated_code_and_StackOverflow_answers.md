@@ -5,20 +5,18 @@ S. Hamer, M. d’Amorim and L. Williams, "Just another copy and paste? Comparing
 
 ## 1. Fichamento de Conteúdo
 
-O artigo investiga a segurança do código gerado pelo ChatGPT em comparação com trechos retirados do StackOverflow (SO). Para isso, os autores analisaram 108 trechos de código de cada plataforma, utilizando a ferramenta de análise estática CodeQL para identificar vulnerabilidades. Os resultados indicam que o código gerado pelo ChatGPT apresentou 248 vulnerabilidades, enquanto os trechos do SO continham 302, ou seja, o ChatGPT gerou aproximadamente 20% menos vulnerabilidades. Além disso, o estudo identificou que o ChatGPT gerou menos tipos distintos de vulnerabilidades (19 CWEs) em comparação com o SO (22 CWEs). No entanto, ambas as plataformas apresentaram 274 vulnerabilidades únicas, indicando que os desenvolvedores devem ter cautela ao copiar código de qualquer uma dessas fontes. O estudo conclui que, apesar de o ChatGPT apresentar menos vulnerabilidades, ele não elimina o risco de propagação de código inseguro, reforçando a necessidade de boas práticas de engenharia de software.
+O artigo examina a segurança do código produzido pelo ChatGPT em relação a trechos extraídos do StackOverflow (SO). Para essa análise, os autores avaliaram 108 trechos de código de ambas as plataformas, utilizando a ferramenta de análise estática CodeQL para detectar vulnerabilidades. Os resultados revelaram que o código gerado pelo ChatGPT apresentou 248 vulnerabilidades, em comparação com 302 encontradas nos trechos do SO, o que significa que o ChatGPT gerou cerca de 20% menos vulnerabilidades. Além disso, o estudo destacou que o ChatGPT produziu um menor número de tipos distintos de vulnerabilidades 19 Common Weakness Enumeration (CWEs) em comparação aos 22 CWEs do SO. Contudo, ambas as plataformas apresentaram um total de 274 vulnerabilidades únicas, o que sugere que os desenvolvedores devem ser cautelosos ao utilizar código de qualquer uma dessas fontes. A pesquisa conclui que, embora o ChatGPT exiba menos vulnerabilidades, isso não elimina o risco de disseminação de código inseguro, enfatizando a importância de seguir boas práticas na engenharia de software. 
 
 ## 2. Fichamento Bibliográfico
 
-- _CodeQL_: Ferramenta de análise estática usada para detectar vulnerabilidades nos códigos analisados do ChatGPT e do StackOverflow.
-- _CWE (Common Weakness Enumeration)_: Uma taxonomia de vulnerabilidades de software usada para classificar os problemas de segurança identificados no estudo.
-- _CWE-327 e CWE-328_: As vulnerabilidades mais comuns no estudo, relacionadas ao uso de algoritmos criptográficos fracos.
-- _CWE-798 (Uso de credenciais hardcoded)_: Uma vulnerabilidade crítica encontrada mais frequentemente no ChatGPT do que no SO.
-- _Diferença na sobreposição de vulnerabilidades_: Apenas 25% das vulnerabilidades identificadas estavam presentes em ambas as plataformas, evidenciando que cada fonte apresenta riscos distintos.
+- CodeQL é uma ferramenta _opensource_ (código aberto) de análise estática usada para detectar vulnerabilidades no código.
+- _Common Weakness Enumeration (CWE)_: é um sistema para categorizar falhas de segurança de software, focando em defeitos de implementação que podem levar a vulnerabilidades.
+- _CWE-327_: O produto usa um algoritmo ou protocolo criptográfico quebrado ou arriscado.
+- _CWE-798_: A vulnerabilidade descreve quando credenciais como senhas ou chaves criptográficas são codificadas no código e podem ser aproveitadas por invasores para ignorar a autenticação.
 
 ## 3. Fichamento de Citações
 
-- "_ChatGPT-generated code contained 248 vulnerabilities compared to the 302 vulnerabilities found in SO snippets, producing 20% fewer vulnerabilities with a statistically significant difference._"
-- "_Developers are under-educated on insecure code propagation from both platforms, as we found 274 unique vulnerabilities and 25 types of CWE._"
-- "_Any code copied and pasted, created by AI or humans, cannot be trusted blindly, requiring good software engineering practices to reduce risk._"
-- "_CWE-327: Use of a Broken or Risky Cryptographic Algorithm and CWE-328: Use of Weak Hash were the most common vulnerabilities found in both platforms._"
-- "_The vulnerabilities found in the ChatGPT-generated code and SO overlapped only in 25% of the vulnerabilities._"
+- "_We found 248 vulnerabilities across all ChatGPT code snippets. Meanwhile, we found 302 vulnerabilities in the SO code snippets._" 
+- "_Still, developers are under-educated on insecure code propagation from both platforms, as both contain vulnerable code that can propagate to developers_"
+- "_Any code copied and pasted, created by AI or humans, cannot be trusted blindly, requiring good software engineering practices to reduce risk_" 
+- "_[...]CWE-328 is similar as it covers when the hash algorithm does not meet security expectations._" - "_Additionally, the vulnerabilities found in the ChatGPT-generated code and SO overlapped only in 25% of the vulnerabilities._"

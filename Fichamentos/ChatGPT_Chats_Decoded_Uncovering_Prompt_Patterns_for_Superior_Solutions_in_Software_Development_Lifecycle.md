@@ -4,20 +4,20 @@ L. Wu, Y. Zhao, X. Hou, T. Liu and H. Wang, "ChatGPT Chats Decoded: Uncovering P
 
 ## 1. Fichamento de Conteúdo
 
-O artigo investiga padrões de prompts que maximizam a eficácia do ChatGPT no ciclo de vida do desenvolvimento de software. Utilizando o **DevGPT dataset**, que contém interações reais entre desenvolvedores e ChatGPT, os autores analisam as características dos prompts que resultam em respostas mais úteis. Foram identificadas seis categorias principais de padrões de prompts: **semântica de entrada, personalização de saída, identificação de erros, melhoria de prompts, interação e controle de contexto**. O estudo destaca que a **personalização da saída** (ex.: templates e automação de respostas) é a categoria mais utilizada, representando 33,8% dos casos. Além disso, foram mapeadas as aplicações desses padrões em diferentes fases do ciclo de vida do software, como engenharia de requisitos, desenvolvimento e manutenção. Os resultados mostram que prompts bem estruturados melhoram significativamente a qualidade das respostas do ChatGPT, otimizando a produtividade dos desenvolvedores.
+O artigo mapeia os padrões de prompts de uso comum que efetivamente melhoram a eficiência do ChatGPT no ciclo de vida do desenvolvimento de um software. A abordagem baseia-se em um conjunto de dados do DevGPT de interações entre os desenvolvedores e o ChatGPT para descobrir a natureza exata dos prompts que desencadeiam respostas mais eficazes. Com base na análise, foi identificado seis categorias padrões de prompts: _Input Semantics_, _Output Customization_, _Error Identification_, _Prompt Improvement_, _Interaction_ e _Context Control_. O estudo destaca que o padrão _Output Customization_ é o mais frequentemente empregado, representando 33,8% dos casos. Além disso, foi mapeado padrões recorrentes nos estágios diferentes do ciclo de vida do desenvolvimento de software (_Software Development Lifecycle_), como engenharia de requisitos, desenvolvimento e manutenção. A análise fornece que o que os desenvolvedores podem fazer para otimizar suas interações ainda possui desafios, principalmente na automação da interação e na confiabilidade da resposta.
 
 ## 2. Fichamento Bibliográfico
-
-- **DevGPT dataset**: Um conjunto de dados contendo conversas entre desenvolvedores e o ChatGPT, utilizado para análise dos padrões de interação.
-- **Padrões de prompts**: Seis categorias identificadas no estudo: semântica de entrada, personalização de saída, identificação de erros, melhoria de prompts, interação e controle de contexto.
-- **Personalização da saída**: Categoria mais frequente, com técnicas como templates e geração automatizada de respostas.
-- **Fases do ciclo de vida do software**: Os padrões de prompts foram analisados nas fases de engenharia de requisitos, desenvolvimento, qualidade, manutenção e gestão de software.
-- **Qualidade das respostas**: As respostas foram avaliadas por ferramentas como Code-Llama e Mistral, utilizando critérios como complexidade ciclomática e frequência de comentários.
+- _Large Language Models (LLMs)_ são tipos de modelo de inteligência artificial que utilizam técnicas de _machine learning_ (aprendizado de máquina) para entender e gerar linguagem humana (página 1).
+- _Prompt Patterns_ (padrões de prompts) são padrões de estruturas que orientam o fluxo de diálogo dividos em 6 categorias (página 1).
+- _DevGPT dataset_ uma coleção de dados contendo interações entre desenvolvedores e o ChatGPT, utilizado para análise dos padrões de interação(página 1).
+- _Output Customization_ esse padrão especifica tipos, formatos e estruturas, no qual adota um personagem ou função específica fornecendo um guia passo a passo de ações
+- _Software Development Lifecycle_ junção de 6 atividades: engenharia de requisitos, design de software,
+desenvolvimento de software, garantia de qualidade de software, manutenção de software e gerenciamento de software.
 
 ## 3. Fichamento de Citações
 
-- "_The increasing reliance on these LLM-driven tools signifies a major transformation in the software development paradigm._"
-- "_We classify high-quality prompt patterns into six distinct categories, each exemplified by several instances._"
-- "_Among all conversations, the usage proportion of the Output Customization pattern is as high as 33.8%, making it the most frequently used prompt mode by ChatGPT users._"
+- "_The increasing reliance on these LLMdriven tools signifies a major transformation in the software development paradigm [4]._"
+- "_[...] we classify high-quality prompt patterns into six distinct categories, each exemplified by several instances._"
 - "_Understanding these patterns has far-reaching consequences for software engineering practice._"
 - "_By elucidating the characteristics of effective prompts, this research offers practical insights for developers to enhance their interaction with ChatGPT._"
+- "_In the Software Development phase, prevalent issues include code generation, optimization, and data analysis._"

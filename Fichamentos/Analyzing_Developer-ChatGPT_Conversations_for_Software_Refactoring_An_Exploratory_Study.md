@@ -20,7 +20,7 @@ O artigo busca identificar como os desenvolvedores utilizam o ChatGPT para conve
 - "_Majorly two contradictory patterns were observed in prompts: 1\) The developer
 provides specific instructions of how the code should be refactored.
 2\) The prompt is open-ended, and ChatGPT suggests the outcome
-of refactoring like improving readability, maintainability, etc_"
+of refactoring like improving readability, maintainability, etc._"
 - "_Through the analysis of developer-ChatGPT interactions, we have attempted to identify patterns and discern the primary tasks within software development for which developers prefer leveraging suggestions from ChatGPT._"
 - "_A few of the conversations were also
 used to split the code to make it more readable and maintainable.

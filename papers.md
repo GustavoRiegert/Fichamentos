@@ -21,7 +21,7 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10555800&isnumber=10555
 
 9. Y. Li, J. Xu, Y. Zhu, H. Liu and P. Liu, "The Impact of ChatGPT on Software Engineering Education: A Quick Peek," 2023 10th International Conference on Dependable Systems and Their Applications (DSA), Tokyo, Japan, 2023, pp. 595-596, doi: 10.1109/DSA59317.2023.00087.
 
-10. Terrence J. Sejnowski, "ChatGPT and the Future of AI," in ChatGPT and the Future of AI: The Deep Language Revolution , MIT Press, 2024, pp.1-5. 10.7551/mitpress/15580.001.0001
+10. Terrence J. Sejnowski, "ChatGPT and the Future of AI," in ChatGPT and the Future of AI: The Deep Language Revolution , MIT Press, 2024, pp.1-5. https://doi.org/10.7551/mitpress/15580.001.0001
 
 11. Yue Liu, Thanh Le-Cong, Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Xuan-Bach D. Le, and David Lo. 2024. Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues. ACM Trans. Softw. Eng. Methodol. 33, 5, Article 116 (June 2024), 26 pages. https://doi.org/10.1145/3643674
 
